@@ -94,7 +94,7 @@ public class Fila<T> {
     }
 
     public boolean isEmpety() {
-        return refNoEntradaFila == null;
+        return refNoEntradaFila == null? true:false;
     }
 
     @Override
